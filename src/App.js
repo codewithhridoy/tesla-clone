@@ -1,9 +1,20 @@
 import './App.css';
+import Header from './components/Header'
 
 function App(){
     return (
         <div className="App">
-            <h1> Hridoy</h1>
+           {/* Header with logo */}
+           <Header />
+                {/* Items => Snapping */}
+                {/* Items => Snapping */}
+                {/* Items => Snapping */}
+                {/* Items => Snapping */}
+                {/* Items => Snapping */}
+
+        
+
+
         </div>
     );
 }
