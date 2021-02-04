@@ -6,10 +6,29 @@ import TeslaLogo from '../assests/teslaLogoSmall.svg'
 const Header = () => {
     return (
         <div className='header'>
-            <div className="header_logo">
+            <div className="header__logo">
                 <img src={TeslaLogo} alt="TeslaLogo"/>
             </div>
+
+            <div className="header__center">
+                <p>Model S</p>
+                <p>Model 3</p>
+                <p>Model X</p>
+                <p>Model Y</p>
+                <p>Solar Roof</p>
+                <p>Solar Panels</p>
+            </div>
+
+            <div className="header__right">
+                <p>Shop</p>
+                <p>Tesla Account</p>
+            </div>
+
+
+
+
         </div>
+
     )
 }
 
