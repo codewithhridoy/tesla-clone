@@ -28,11 +28,17 @@
 }
 
 .header__right{
+    flex: 0.3;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .header__right>p {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header__right>a {
     margin: 10px;
     text-transform: uppercase;
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import './Header.css'
 import TeslaLogo from '../assests/teslaLogoSmall.svg'
 
+// get our React icon imports
+import { FaAlignJustify } from "react-icons/fa";
 
 const Header = () => {
     return (
@@ -22,6 +24,9 @@ const Header = () => {
             <div className="header__right">
                 <p>Shop</p>
                 <p>Tesla Account</p>
+                <a href="#"><FaAlignJustify /></a>
+                
+
             </div>
 
 
