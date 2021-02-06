@@ -13,6 +13,7 @@ const Items = ( {title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, 
             backgroundImage: `url(${backgroundImg})`
 
         }}>
+            <base target="_blank"></base>
             <div className="item__container">
                 <div className="item__text">
                     <p>{title}</p>
@@ -24,10 +25,10 @@ const Items = ( {title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, 
 
                 <div className="item__lowerThird">
                     <div className="item_buttons">
-                        <Button imp='primary' text={leftBtnTxt} link='leftBtnLink' />
+                        <Button imp='primary' text={leftBtnTxt} link={leftBtnLink} />
                         
                         {twoButtons && (
-                            <Button imp='secondary' text={rightBtnTxt} link='rightBtnLink' />
+                            <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink} />
                         )}
                     </div>
                     {first && (

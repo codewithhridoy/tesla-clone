@@ -1,0 +1,23 @@
+.footer{
+    display:flex;
+    margin: 15px;
+    margin-top: 15px;
+    scroll-snap-align: start;
+}
+
+
+
+.footer__center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__center>a{
+    margin: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}

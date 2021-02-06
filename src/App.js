@@ -4,6 +4,7 @@ import './App.css';
 // Import Header
 import Header from './components/Header'
 import Item from './components/Item'
+import Footer from './components/Footer'
 
 // Import Images
 import Accessories from './assests/Desktop-Accessories.jpg'
@@ -17,32 +18,24 @@ import SolarPanels from './assests/Desktop-SolarPanels.jpeg'
 function App(){
     return (
         <div className="App">
+
            {/* Header with logo */}
            <Header />
+
+           {/* Items */}
            <div className="app__itemsContainer">
-               <Item
+
+                <Item
                   title = 'Lowest Cost Solar Panels in America'
                   desc = 'Money-back guarantee'
                   descLink = ''
                   backgroundImg = {SolarPanels}
                   leftBtnTxt = 'ORDER NOW'
-                  leftBtnLink = ''
+                  leftBtnLink = 'https://www.tesla.com/energy/design'
                   rightBtnTxt = 'LEARN MORE'
-                  rightBtnLink = ''
+                  rightBtnLink = 'https://www.tesla.com/solarpanels'
                   twoButtons = 'true'
                   first
-                />
-
-                <Item
-                  title = 'Solar for New Roofs'
-                  desc = 'Solar Roof Costs Less Than a New Roof Plus Solar Panels'
-                  descLink = ''
-                  backgroundImg = {SolarRoof}
-                  leftBtnTxt = 'ORDER NOW'
-                  leftBtnLink = ''
-                  rightBtnTxt = 'LEARN MORE'
-                  rightBtnLink = ''
-                  twoButtons = 'true'
                 />
 
                 <Item 
@@ -51,9 +44,9 @@ function App(){
                   descLink = ''
                   backgroundImg = {ModelS}
                   leftBtnTxt = 'CUSTOM ORDER'
-                  leftBtnLink = ''
+                  leftBtnLink = 'https://www.tesla.com/models/design#overview'
                   rightBtnTxt = 'EXISTING INVENTORY'
-                  rightBtnLink = ''
+                  rightBtnLink = 'https://www.tesla.com/inventory/new/ms'
                   twoButtons = 'true'
                 />
 
@@ -64,12 +57,11 @@ function App(){
                   descLink = ''
                   backgroundImg = {Model3}
                   leftBtnTxt = 'CUSTOM ORDER'
-                  leftBtnLink = ''
+                  leftBtnLink = 'https://www.tesla.com/model3/design#overview'
                   rightBtnTxt = 'EXISTING INVENTORY'
-                  rightBtnLink = ''
+                  rightBtnLink = 'https://www.tesla.com/inventory/new/m3'
                   twoButtons = 'true'
                 />
-
 
 
                 <Item 
@@ -78,9 +70,9 @@ function App(){
                   descLink = ''
                   backgroundImg = {ModelX}
                   leftBtnTxt = 'CUSTOM ORDER'
-                  leftBtnLink = ''
+                  leftBtnLink = 'https://www.tesla.com/modelx/design#overview'
                   rightBtnTxt = 'EXISTING INVENTORY'
-                  rightBtnLink = ''
+                  rightBtnLink = 'https://www.tesla.com/inventory/new/mx'
                   twoButtons = 'true'
                 />
 
@@ -90,23 +82,38 @@ function App(){
                   descLink = ''
                   backgroundImg = {ModelY}
                   leftBtnTxt = 'CUSTOM ORDER'
-                  leftBtnLink = ''
+                  leftBtnLink = 'https://www.tesla.com/modely/design#overview'
                   rightBtnTxt = 'LEARN MORE'
-                  rightBtnLink = ''
+                  rightBtnLink = 'https://www.tesla.com/modely'
                   twoButtons = 'true'
                 />
+
+                <Item
+                  title = 'Solar for New Roofs'
+                  desc = 'Solar Roof Costs Less Than a New Roof Plus Solar Panels'
+                  descLink = ''
+                  backgroundImg = {SolarRoof}
+                  leftBtnTxt = 'ORDER NOW'
+                  leftBtnLink = 'https://www.tesla.com/solarroof/design'
+                  rightBtnTxt = 'LEARN MORE'
+                  rightBtnLink = 'https://www.tesla.com/solarroof'
+                  twoButtons = 'true'
+                />
+
+
 
                 <Item 
                   title = 'Accessories'
                   descLink = ''
                   backgroundImg = {Accessories}
                   leftBtnTxt = 'SHOP NOW'
-                  leftBtnLink = ''
-                  rightBtnTxt = 'LEARN MORE'
-                  rightBtnLink = ''
-                  twoButtons = 'true'
+                  leftBtnLink = 'https://shop.tesla.com/'
+                  // rightBtnTxt = 'LEARN MORE'
+                  // rightBtnLink = ''
+                  // twoButtons = 'true'
                 />
 
+            <Footer />
 
            </div>
 

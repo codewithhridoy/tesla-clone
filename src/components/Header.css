@@ -40,5 +40,6 @@
 
 .header__right>a {
     margin: 10px;
-    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
 }
